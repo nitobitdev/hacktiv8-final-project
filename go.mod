@@ -1,4 +1,4 @@
-module final-project
+module final-project-gin-go
 
 go 1.19
 

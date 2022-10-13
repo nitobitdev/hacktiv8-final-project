@@ -1,7 +1,7 @@
 package config
 
 import (
-	"final-project/models"
+	"final-project-gin-go/models"
 	"fmt"
 
 	"gorm.io/driver/postgres"
@@ -9,11 +9,11 @@ import (
 )
 
 const (
-	host    = "localhost"
-	port    = "5432"
+	host    = "containers-us-west-67.railway.app"
+	port    = "6092"
 	user    = "postgres"
-	pass    = "root"
-	db_name = "final_project"
+	pass    = "lTw5yk2P3YXgl7bdEOv8"
+	db_name = "railway"
 )
 
 func ConnectGorm() *gorm.DB {

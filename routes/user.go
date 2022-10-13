@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"final-project/controllers"
-	"final-project/middlewares"
+	"final-project-gin-go/controllers"
+	"final-project-gin-go/middlewares"
 
 	"github.com/gin-gonic/gin"
 )

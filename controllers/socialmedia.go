@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"final-project/helpers"
-	"final-project/models"
-	"final-project/views"
+	"final-project-gin-go/helpers"
+	"final-project-gin-go/models"
+	"final-project-gin-go/views"
 	"net/http"
 	"strconv"
 

@@ -1,9 +1,10 @@
 package main
 
 import (
-	"final-project/config"
-	"final-project/controllers"
-	"final-project/routes"
+	"final-project-gin-go/config"
+	"final-project-gin-go/controllers"
+	"final-project-gin-go/routes"
+	"os"
 )
 
 func main() {
@@ -16,5 +17,5 @@ func main() {
 
 	router := routes.NewRouter(userControllers, photoControllers, commentControllers, socialMediaControllers)
 
-	router.Start(":4000")
+	router.Start(":" + os.Getenv("PORT"))
 }
